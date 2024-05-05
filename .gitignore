@@ -1,1 +1,2 @@
-.github/**
+# Ignore dataset file
+dataset.csv
