@@ -1,10 +1,10 @@
 import pandas as pd
 
-def analyze_data(data_file):
+def load_and_analyze_data(data_file):
     # Load the dataset
     data = pd.read_csv(data_file)
     
-    # Perform some analysis
+    # Perform basic analysis
     summary = data.describe()
     
     # Print summary statistics
@@ -12,5 +12,5 @@ def analyze_data(data_file):
 
 if __name__ == "__main__":
     data_file = "dataset.csv"
-    analyze_data(data_file)
+    load_and_analyze_data(data_file)
 
