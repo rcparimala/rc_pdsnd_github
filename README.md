@@ -1,17 +1,18 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+# Python Data Analysis Tool
 
 ### Date created
-Include the date you created this project and README file.
+May 4, 2024
 
 ### Project Title
-Replace the Project Title
+Python Data Analysis Tool
 
 ### Description
-Describe what your project is about and what it does
+This project is a simple data analysis tool implemented in Python. It includes a Python script (`analysis.py`) that loads a dataset from a CSV file and performs basic statistical analysis using the pandas library. The script provides summary statistics such as mean, median, minimum, maximum, and quartiles for numerical columns in the dataset. It serves as a starting point for analyzing datasets using Python.
 
 ### Files used
-Include the files used
+- `analysis.py`: Python script for data analysis
+- `dataset.csv`: Sample dataset containing data for analysis
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+The code for this project was inspired by various Python data analysis tutorials and documentation on pandas library. The official documentation of pandas library served as a valuable resource during the implementation.
 
